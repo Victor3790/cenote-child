@@ -18,10 +18,20 @@ get_header();
 
 	<div id="primary" class="content-area">
 		<main id="main" class="site-main">
-			<h1>hola</h1>
-
-
-
+			<div id="about">
+				<h2>Quiénes somos</h2>
+				<p>
+					Somos una empresa mexicana fabricante de calzado para dama, nuestra misión
+					es brindar a nuestros clientes zapatos de moda de la más alta calidad a
+					precios inigualables. En Calzado Karla Van estamos convencidos de que lo
+					hecho en México es sinonimo de calidad por lo que todos nuestros productos están
+					hechos por manos 100% mexicanas.
+				</p>
+				<img src="<?php echo get_stylesheet_directory_uri(); ?>/img/calzado.jpg" alt="Calzado para dama.">
+			</div>
+			<div id="models">
+				<h2>Nuestros modelos</h2>
+			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 

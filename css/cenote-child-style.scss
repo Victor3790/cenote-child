@@ -8,3 +8,27 @@ $maroon: #800000;
   background-position: bottom;
   min-height: 600px;
 }
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+  #about{
+    p, img{
+      float: left;
+    }
+    p{
+      width: 49%;
+      padding: 3% 2%;
+      text-align: center;
+    }
+    img{
+      width: 49%;
+    }
+  }
+}
+
+@media (min-width: 1200px) {
+
+}
