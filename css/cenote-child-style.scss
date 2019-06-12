@@ -1,4 +1,5 @@
 $maroon: #800000;
+$white: #fff;
 
 .tg-site-header.tg-site-header--bordered .tg-header-bottom .header-bottom-bottom .tg-container{
   border-top: 2px solid $maroon;
@@ -9,11 +10,46 @@ $maroon: #800000;
   min-height: 600px;
 }
 
-@media (min-width: 768px) {
-
+.buttonContainer{
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
 }
 
-@media (min-width: 992px) {
+.customButton{
+  width: 100%;
+  padding: 4% 0;
+  margin-bottom: 5%;
+  background-color: $maroon;
+  cursor:pointer;
+  a{
+    display: block;
+    color: $white;
+    text-align: center;
+    font-weight: bold;
+  }
+}
+
+#about{
+  overflow: hidden;
+  margin-bottom: 25%;
+  img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  p{
+    text-align: center;
+  }
+}
+
+.gallery-columns-3 .gallery-item{
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
   #about{
     p, img{
       float: left;
@@ -21,14 +57,44 @@ $maroon: #800000;
     p{
       width: 49%;
       padding: 3% 2%;
-      text-align: center;
     }
     img{
       width: 49%;
+      margin-top: 0;
     }
+  }
+
+  .gallery-columns-3 .gallery-item{
+    max-width: 50%;
+  }
+
+  .buttonContainer{
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10%;
+  }
+
+  .customButton{
+    width: 40%;
+  }
+}
+
+@media (min-width: 992px) {
+  .gallery-columns-3 .gallery-item{
+    max-width: 33.33%;
+  }
+
+  .customButton{
+    padding: 2%;
+  }
+
+  #about{
+    margin-bottom: 15%;
   }
 }
 
 @media (min-width: 1200px) {
-
+  #about{
+    margin-bottom: 10%;
+  }
 }

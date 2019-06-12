@@ -31,6 +31,15 @@ get_header();
 			</div>
 			<div id="models">
 				<h2>Nuestros modelos</h2>
+				<?php echo do_shortcode('[gallery category="catalogo"  size="medium" link="none"]'); ?>
+				<div class="buttonContainer">
+					<div class="customButton">
+						<a href="<?php echo esc_url( home_url( '/modelos' ) );?>">Ver más modelos</a>
+					</div>
+					<div class="customButton">
+						<a href="#">Comprar</a href="#">
+					</div>
+				</div>
 			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
