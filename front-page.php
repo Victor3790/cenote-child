@@ -41,6 +41,13 @@ get_header();
 					</div>
 				</div>
 			</div>
+			<div id="contact">
+				<h2>Contáctanos</h2>
+				<h5>Para ventas al mayoreo:</h5>
+				<p>ventas@calzadokarlavan.com</p>
+				<h5>Para cualquier aclaración:</h5>
+				<p>hola@calzadokarlavan.com</p>
+			</div>
 		</main><!-- #main -->
 	</div><!-- #primary -->
 
