@@ -51,15 +51,15 @@ $white: #fff;
 
 @media (min-width: 768px) {
   #about{
-    p, img{
+    div{
+      width: 49%;
+      height: 100%;
       float: left;
     }
-    p{
-      width: 49%;
-      padding: 3% 2%;
-    }
     img{
-      width: 49%;
+      margin-top: 7%;
+    }
+    h2{
       margin-top: 0;
     }
   }
@@ -90,6 +90,9 @@ $white: #fff;
 
   #about{
     margin-bottom: 15%;
+    p{
+      padding: 5% 10%;
+    }
   }
 }
 
